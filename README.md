@@ -1,72 +1,49 @@
-## Workshop Instructional Materials
+# Quick Reader
 
-Welcome to the [Next Generation Team's Workshop Library](presentation.pptx), built by Cloud Advocates and their colleagues in partnership with Microsoft Student Ambassadors. In this repo, you'll find grab-and-go resources to help you host your own workshop.
-
-✨✨✨✨✨✨ What's a 'grab-and-go' workshop? It's something you can 'check out' of this library and CUSTOMIZE IT to your community's needs, interest, and language. You can deliver these workshops verbatim, or totally rearrange them and their assets to suit your needs! ✨✨✨✨✨✨
+Don't read the  book :trollface: , just use Quick Reader   :sunglasses:
 
 
-# Prepared Workshops
+<img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
+align="right" 
+     title="Quick Reader" width="30%" height="30%">
 
-> 🏎 indicates short workshops
+- Text summarization
+- Information retrieval
+- Finding similarities 
+- Sentence ranking
+- Keyword extraction
+- and many more in progress..
 
-> 1️⃣, 2️⃣, 3️⃣ indicate beginner, intermediate, and advanced level workshops
+<hr>
 
-[AI/ML Workshops](#AI) | [Data Workshops](#data) | [Web/App Development Workshops](#web)
+## More about Project
 
-## <a name="AI"></a>AI/ML Workshops
+* Keyword extraction is an extremely interesting topic in Information Retrieval- keywords are widely acknowledged to be extremely important in the field of text retrieval, and particularly while developing large scale modern search engines that limit the size of the inverted index used by the system.
 
+* In this project we propose to build a system using modern NLP techniques such as Part of Speech Tagging, Brown Clustering and Rapid Automatic Keywords Extraction (RAKE) to use a small initial seed of keywords to generate more candidate keywords in a semi-supervised manner and expose the system as a JSON based web service.
 
----
-<details>
-<summary><h2>Resources on how to teach and mentor effectively</h2></summary>
-<br>
+* The proposed system mainly focuses on scraping the data from image and providing the summary as well as keywords from the information extracted from  image
 
-
-
-Use the [Cheat Sheet](./cheat-sheet.md) to organize your workshop delivery
-
-[Slides on how to mentor](https://github.com/FrontEndFoxes/art/blob/main/frontend-foxes-mentor-training.pdf) from Front-End Foxes School
-
-[LinkedIn Learning Course](https://www.linkedin.com/learning/teaching-techniques-developing-curriculum/welcome?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=3322) on how to develop curriculum
-
-[LinkedIn Learning Course](https://www.linkedin.com/learning/presenting-technical-information-with-stories/storytelling-for-technical-presentations?autoAdvance=true&autoSkip=false&autoplay=true&resume=true&u=3322) on how to present technical topics with stories
-
-These workshops were created using our [template](https://github.com/microsoft/workshop-template)
-</details>
-
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE)
-
-# DevOps For Machine Learning | MLOps
-This repository is created by [Mohammad Ghodratigohar]( https://www.linkedin.com/in/mohammad-ghodratigohar/) for hands-on MLOps workshop using [Azure Machine Learning]( https://docs.microsoft.com/en-us/azure/machine-learning/) and [Azure DevOps]( https://docs.microsoft.com/en-us/azure/devops/?view=azure-devops&viewFallbackFrom=vsts). 
-
-Complete implementation and explanation of this repository is recorded in these 10 part tutorial video series:
-[Video Series Playlist](https://www.youtube.com/playlist?list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f)
-
-[Part1](https://www.youtube.com/watch?v=-QxwB7PoSdA&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=3),
-[Part2](https://www.youtube.com/watch?v=Gzjr716RU9g&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=3),
-[Part3](https://www.youtube.com/watch?v=L-nIreup0HQ&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=1),
-[Part4](https://www.youtube.com/watch?v=b15l4BLAnmc&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=5),
-[Part5](https://www.youtube.com/watch?v=C79hIHRBSsQ&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=5),
-[Part6](https://www.youtube.com/watch?v=rPowmr43kzc&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=6),
-[Part7](https://www.youtube.com/watch?v=iq4hGqC_JMs&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=7),
-[Part8](https://www.youtube.com/watch?v=p9CxWhpE4uQ&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=8),
-[Part9](https://www.youtube.com/watch?v=y9NMFLBo3bQ&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=9),
-[Part10](https://www.youtube.com/watch?v=KHD2oyP8W94&list=PLiQS6N-W1p3m9squzZ2cPgGdH5SBhjY6f&index=10)
+* Quick Reade is really helpful for the visually impaired,  it will take image containing text as the input, extracts the text from the image, and converts this text to speech, it will summarize the text of the image for them.
 
 
-For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com .
 
-![ML Loop](./images/ml-loop.PNG)
+## How does the Quick Reader works?
 
-##  MLOps Workflow
 
-Machine Learning Operations ([MLOps]( https://docs.microsoft.com/en-us/azure/machine-learning/concept-model-management-and-deployment)) is based on DevOps principles and practices that increase the efficiency of workflows. 
+It follows following Steps:
 
-This repository contains codes and guidelines for configuring the MLOps workflow with Azure as shown below:
+1. Scan text
+2. Extract Text
+4.  Summarizers
+5. Rankers
+6. Similarity Algorithms
+7. Information Retrievers
+8. Keyword Extractors
 
-![Flow](./architecture/flow.PNG)
-
-##  MLOps with Azure Machine Learning 
+     <br>
+All those has been done with Azure Machine Learning
+##  Azure Machine Learning 
 
 Azure Machine Learning provides the following MLOps capabilities:
 
@@ -78,5 +55,10 @@ Azure Machine Learning provides the following MLOps capabilities:
 - **Monitor ML applications for operational and ML-related issues**. Compare model inputs between training and inference, explore model-specific metrics, and provide monitoring and alerts on your ML infrastructure.
 - **Automate the end-to-end ML lifecycle with Azure Machine Learning and Azure Pipelines**. Using pipelines allows you to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
-![ML Lifecycle](./architecture/ml-lifecycle.png)
+![ML Lifecycle](./images/ml-lifecycle.png)
+ my Special task:
+ -**Getting Data from Data (CNN daily mail)
+ 
+ -**Clean data with Azure ML
+ 
 
