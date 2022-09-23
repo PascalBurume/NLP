@@ -54,7 +54,8 @@ Azure Machine Learning provides the following MLOps capabilities:
 
 ![ML Lifecycle](./images/ml-lifecycle.png)
  ## My Special task:
- - Getting Data from Kaddle (CNN daily mail)
+ - Getting Data from Kaddle [CNN daily mail](https://www.kaggle.com/datasets/gowrishankarp/newspaper-text-summarization-cnn-dailymail)
+ ![ML Lifecycle](./images/Data2.jpg)
  - Uploaded it to Azure Machine Learning Studio 
  ![ML Lifecycle](./images/Data.jpg)
  - Clean data with Designer in Azure ML
