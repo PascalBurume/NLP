@@ -56,7 +56,7 @@ Complete implementation and explanation of this repository is recorded in these 
 
 For any further inquiries or questions, please contact me at mo.ghodrati95@gmail.com .
 
-![ML Loop](./architecture/ml-loop.PNG)
+![ML Loop](./images/ml-loop.PNG)
 
 ##  MLOps Workflow
 
