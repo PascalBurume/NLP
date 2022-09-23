@@ -3,7 +3,7 @@
 Don't read the  book :trollface: , just use Quick Reader   :sunglasses:
 
 
-<img src="https://thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
+<img src="https:/NLP/thumbs.dreamstime.com/b/person-reader-books-studying-preparing-exam-speed-reading-education-knowledge-concept-woman-fiction-literature-leisure-256904883.jpg"
 align="right" 
      title="Quick Reader" width="30%" height="30%">
 
@@ -57,8 +57,8 @@ Azure Machine Learning provides the following MLOps capabilities:
 
 ![ML Lifecycle](./images/ml-lifecycle.png)
  my Special task:
- -**Getting Data from Data (CNN daily mail)
+ - Getting Data from Data (CNN daily mail)
  
- -**Clean data with Azure ML
+ - Clean data with Azure ML
  
-
+ ![ML Lifecycle](./images/Result.jpg)
