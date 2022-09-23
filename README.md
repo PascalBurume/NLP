@@ -56,7 +56,7 @@ Azure Machine Learning provides the following MLOps capabilities:
 - **Automate the end-to-end ML lifecycle with Azure Machine Learning and Azure Pipelines**. Using pipelines allows you to frequently update models, test new models, and continuously roll out new ML models alongside your other applications and services.
 
 ![ML Lifecycle](./images/ml-lifecycle.png)
- my Special task:
+ ## My Special task:
  - Getting Data from Data (CNN daily mail)
  
  - Clean data with Azure ML
