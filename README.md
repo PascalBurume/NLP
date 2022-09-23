@@ -39,7 +39,7 @@ It follows following Steps:
 8. Keyword Extractors
 
      <br>
-All those has been done with Azure Machine Learning
+All those steps has been done with Azure Machine Learning
 ##  Azure Machine Learning 
 
 Azure Machine Learning provides the following MLOps capabilities:
